@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter some message"
+        android:maxLength="50"
+        android:maxLines="2"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_alert1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert 1"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_alert2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert 2"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_alert3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alert 3"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_alert4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress Dialog"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
